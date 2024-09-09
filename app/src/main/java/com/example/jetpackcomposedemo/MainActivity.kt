@@ -78,5 +78,3 @@ fun RememberCoroutineScopeExample() {
         }
     }
 }
-
-// rememberC
