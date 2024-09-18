@@ -105,12 +105,14 @@ fun ScaffoldDemo() {
 
         // Floating Action button
         floatingActionButton = {
-            FloatingActionButton(onClick = { /* do something */ }) {
+            FloatingActionButton(containerColor = Color.Black,
+                contentColor = Color.White,
+                onClick = { /* do something */ }) {
                 Icon(Icons.Default.Add, contentDescription = "Add")
             }
         }
-    ) { innerPadding ->
 
+    ) { innerPadding ->
         // Content in between of top bar and bottom bar
         Column(
             modifier = Modifier.padding(innerPadding),
